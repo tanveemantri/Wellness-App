@@ -12,6 +12,7 @@
 		C95D56D12A3A3D0300F3EB10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D56D02A3A3D0300F3EB10 /* ContentView.swift */; };
 		C95D56D32A3A3D0500F3EB10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95D56D22A3A3D0500F3EB10 /* Assets.xcassets */; };
 		C95D56D62A3A3D0500F3EB10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95D56D52A3A3D0500F3EB10 /* Preview Assets.xcassets */; };
+		C95D56F72A3A4DDF00F3EB10 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D56F62A3A4DDF00F3EB10 /* Affirmations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C95D56D02A3A3D0300F3EB10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C95D56D22A3A3D0500F3EB10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C95D56D52A3A3D0500F3EB10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C95D56F62A3A4DDF00F3EB10 /* Affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				C95D56CE2A3A3D0300F3EB10 /* Wellness_AppApp.swift */,
 				C95D56D02A3A3D0300F3EB10 /* ContentView.swift */,
 				4FAB82802A3A4114009D99B7 /* JournalView.swift */,
+				C95D56F62A3A4DDF00F3EB10 /* Affirmations.swift */,
 				C95D56D22A3A3D0500F3EB10 /* Assets.xcassets */,
 				C95D56D42A3A3D0500F3EB10 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95D56F72A3A4DDF00F3EB10 /* Affirmations.swift in Sources */,
 				4FAB82812A3A4114009D99B7 /* JournalView.swift in Sources */,
 				C95D56D12A3A3D0300F3EB10 /* ContentView.swift in Sources */,
 				C95D56CF2A3A3D0300F3EB10 /* Wellness_AppApp.swift in Sources */,
