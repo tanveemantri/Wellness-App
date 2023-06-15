@@ -26,7 +26,9 @@ struct JournalView: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(.white)
-                    .padding()
+                    .padding(.top, 20.0)
+                
+         
                 
                 ScrollView {
                     VStack(spacing: 10) {
@@ -47,7 +49,7 @@ struct JournalView: View {
                     Text("Save")
                         .foregroundColor(.white)
                         .padding()
-                        .background(Color.blue)
+                        .background(Color("Turquoise"))
                         .cornerRadius(10)
                 }
             }
@@ -81,7 +83,7 @@ struct JournalEntryView: View {
                 .padding()
                 .background(
                     RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color.blue, lineWidth: 2)
+                        .stroke(Color("Turquoise"), lineWidth: 2)
                 )
                 .contextMenu {
                     Button(action: {
@@ -104,7 +106,7 @@ struct JournalEntryView: View {
             
             Text("Last edited: \(entry.lastEdited, formatter: dateFormatter)")
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundColor(.white)
         }
         .onTapGesture {
             isEditing = false
