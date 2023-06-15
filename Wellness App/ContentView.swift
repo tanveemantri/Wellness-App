@@ -39,7 +39,10 @@ struct ContentView: View {
                     NavigationLink(destination: ResourcesView()) {
                         HomeButton(title: "Resources")
                     }
-                    
+                    .navigationTitle("Home")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .navigationBarHidden(false)
+
                     Spacer()
                 }
                 .padding()
