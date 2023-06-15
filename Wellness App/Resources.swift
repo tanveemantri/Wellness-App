@@ -17,7 +17,9 @@ struct Resources: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(Color.white)
-            padding()
+                .padding()
+            
+            
         }
     }
 }
