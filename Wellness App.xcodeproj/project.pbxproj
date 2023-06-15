@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4FAB82812A3A4114009D99B7 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB82802A3A4114009D99B7 /* JournalView.swift */; };
+		BD929CE02A3B6CCE00248042 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD929CDF2A3B6CCE00248042 /* Resources.swift */; };
 		C95D56CF2A3A3D0300F3EB10 /* Wellness_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D56CE2A3A3D0300F3EB10 /* Wellness_AppApp.swift */; };
 		C95D56D12A3A3D0300F3EB10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D56D02A3A3D0300F3EB10 /* ContentView.swift */; };
 		C95D56D32A3A3D0500F3EB10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95D56D22A3A3D0500F3EB10 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		4FAB82802A3A4114009D99B7 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		BD929CDF2A3B6CCE00248042 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		C95D56CB2A3A3D0300F3EB10 /* Wellness App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wellness App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95D56CE2A3A3D0300F3EB10 /* Wellness_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellness_AppApp.swift; sourceTree = "<group>"; };
 		C95D56D02A3A3D0300F3EB10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				C95D56D02A3A3D0300F3EB10 /* ContentView.swift */,
 				4FAB82802A3A4114009D99B7 /* JournalView.swift */,
 				C95D56F62A3A4DDF00F3EB10 /* Affirmations.swift */,
+				BD929CDF2A3B6CCE00248042 /* Resources.swift */,
 				C95D56D22A3A3D0500F3EB10 /* Assets.xcassets */,
 				C95D56D42A3A3D0500F3EB10 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				C95D56F72A3A4DDF00F3EB10 /* Affirmations.swift in Sources */,
 				4FAB82812A3A4114009D99B7 /* JournalView.swift in Sources */,
 				C95D56D12A3A3D0300F3EB10 /* ContentView.swift in Sources */,
+				BD929CE02A3B6CCE00248042 /* Resources.swift in Sources */,
 				C95D56CF2A3A3D0300F3EB10 /* Wellness_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
