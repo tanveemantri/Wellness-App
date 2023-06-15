@@ -18,20 +18,24 @@ struct JournalView: View {
     @State private var newEntry: String = ""
     
     var body: some View {
-        VStack {
-            Text("Journal")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundColor(.blue)
-                .padding()
-            
-            ScrollView {
-                VStack(spacing: 10) {
-                    ForEach(journalEntries) { entry in
-                        JournalEntryView(entry: entry, journalEntries: $journalEntries)
+        ZStack {
+            (Color("Coral"))
+                .ignoresSafeArea()
+            VStack {
+                Text("Your Journal")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .padding()
+                
+                ScrollView {
+                    VStack(spacing: 10) {
+                        ForEach(journalEntries) { entry in
+                            JournalEntryView(entry: entry, journalEntries: $journalEntries)
+                        }
                     }
+                    .padding()
                 }
-                .padding()
             }
             
             HStack {

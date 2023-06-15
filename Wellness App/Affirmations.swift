@@ -16,36 +16,40 @@ struct Affirmations: View {
     ]
     
     var body: some View {
-        VStack {
-            
-            Text("Affirmations")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundColor(Color.blue)
-                .padding(.vertical)
-            
-            VStack(spacing: 20) {
-                ForEach(affirmations, id: \.self) { affirmation in
-                    Text(affirmation)
-                        .font(.title)
-                        .foregroundColor(.white)
+        ZStack {
+            (Color("Cyan"))
+                .ignoresSafeArea()
+            VStack {
+                
+                Text("Affirmations")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
+                    .padding(.vertical)
+                
+                VStack(spacing: 20) {
+                    ForEach(affirmations, id: \.self) { affirmation in
+                        Text(affirmation)
+                            .font(.title)
+                            .foregroundColor(.black)
+                            .padding()
+                            .background(Color.white)
+                            .cornerRadius(10)
+                        
+                    }
+                }
+                
+                Button(action: generateNewAffirmations) {
+                    Text("New Affirmations")
+                        .foregroundColor(.black)
                         .padding()
-                        .background(Color.blue)
+                        .background(Color.white)
                         .cornerRadius(10)
                 }
             }
-            
-            Button(action: generateNewAffirmations) {
-                Text("New Affirmations")
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color.blue)
-                    .cornerRadius(10)
-            }
+            .padding()
         }
-        .padding()
     }
-    
     private func generateNewAffirmations() {
         // Generate new affirmations and replace the existing ones
         let newAffirmations = [

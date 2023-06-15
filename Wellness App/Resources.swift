@@ -10,16 +10,24 @@ import SwiftUI
 struct Resources: View {
     var body: some View {
         ZStack {
-            Color.blue
+            (Color("Tan"))
                 .edgesIgnoringSafeArea(.all)
-            
-            Text("Resources")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundColor(Color.white)
-                .padding()
-            
-            
+            VStack {
+                Text("Resources")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
+                    .padding()
+                
+                Text("General Mental Health Resources.")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.black)
+                    .frame(width: 200.0, height: 50)
+                    .foregroundColor(Color.white)
+                    .cornerRadius(25)
+                    .padding()
+            }
         }
     }
 }
