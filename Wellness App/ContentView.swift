@@ -21,7 +21,7 @@ struct ContentView: View {
                 HomeButton(title: "Journal")
             }
             
-            NavigationLink(destination: AffirmationsView()) {
+            NavigationLink(destination: Affirmations()) {
                 HomeButton(title: "Affirmations")
             }
             
@@ -50,15 +50,6 @@ struct HomeButton: View {
     }
 }
 
-
-struct AffirmationsView: View {
-    var body: some View {
-        Text("Affirmations Page")
-            .font(.title)
-            .fontWeight(.bold)
-            .foregroundColor(.blue)
-    }
-}
 
 struct ResourcesView: View {
     var body: some View {
