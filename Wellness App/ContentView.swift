@@ -19,11 +19,11 @@ struct ContentView: View {
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(Color("Tan")).padding(.bottom)
-                    Text("Wellness is an app that serves as a helpful resource in order to assist its viewers in helping with mental health struggles, such has stress and anxiety management. According to Mental Health Disorder Statistics,  “An estimated 26% of Americans ages 18 and older – about 1 in 4 adults – suffers from a diagnosable mental disorder in a given year” (John Hopkins Medicine). When looking at these statistics, we decided to create our app and design it to improve the mental health for those who struggle with it by helping with journaling, utilizing affirmations, and providing resources.")
+                    Text("Wellness is an app that serves as a helpful resource in order to assist users with mental health struggles. Our app utilizes journaling, affirmations, and important resources to help users.")
                         .fontWeight(.light)
                         .multilineTextAlignment(.center)
                         .background(Color("Tan"))
-                        .cornerRadius(25)
+                        .cornerRadius(10)
                     
                     Spacer()
                     

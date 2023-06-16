@@ -51,9 +51,10 @@ struct JournalView: View {
                         .padding()
                         .background(Color("Turquoise"))
                         .cornerRadius(10)
+                    
                 }
             }
-            .padding()
+            .padding(.top, 650.0)
         }
      
     }
