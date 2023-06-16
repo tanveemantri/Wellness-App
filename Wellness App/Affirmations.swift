@@ -26,16 +26,17 @@ struct Affirmations: View {
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .padding(.vertical)
+                Spacer()
                 
                 VStack(spacing: 20) {
                     ForEach(affirmations, id: \.self) { affirmation in
                         Text(affirmation)
-                            .font(.title)
+                            .font(.title2)
                             .foregroundColor(.black)
                             .padding()
                             .background(Color.white)
                             .cornerRadius(10)
-                        
+                        Spacer()
                     }
                 }
                 
