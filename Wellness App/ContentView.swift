@@ -36,7 +36,7 @@ struct ContentView: View {
                         HomeButton(title: "Affirmations")
                     }
                     
-                    NavigationLink(destination: ResourcesView()) {
+                    NavigationLink(destination: Resources()) {
                         HomeButton(title: "Resources")
                     }
                     .navigationTitle("Home")
